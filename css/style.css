@@ -22398,12 +22398,12 @@ html .page .offset-bottom-0 {
   content: "\e041";
 }
 
-.fl-great-icon-set-mobile226:before {
+.fl-great-/-set-mobile226:before {
   content: "\e042";
 }
 
 .fl-great-icon-set-monitor85:before {
-  content: "\e043";
+  /*content: "\e043";*/
 }
 
 .fl-great-icon-set-monthly5:before {
@@ -26680,7 +26680,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-nav > .rd-navbar-submenu .rd-navbar-submenu.rd-navbar--has-dropdown .rd-navbar-submenu-toggle {
   color: #fff;
   position: absolute;
-  right: 15px;
+  right: 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -26732,10 +26732,10 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-dropdown {
   display: block;
   position: absolute;
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
   left: 0;
-  width: 224px;
+  width: 220px;
   background: #0c0b0b;
   z-index: 5;
 }
@@ -26819,7 +26819,7 @@ html:not(.lt-ie10) .not-animated {
   left: 10px;
   width: 98%;
   position: absolute;
-  text-align: left;
+  text-align: center;
   border-spacing: 31px 25px;
   table-layout: fixed;
   margin-top: 10px;
@@ -26970,7 +26970,7 @@ html:not(.lt-ie10) .not-animated {
   -webkit-transform: translateY(30px);
   transform: translateY(30px);
   padding: 30px 40px 30px 30px;
-  text-align: left;
+  text-align: center;
   visibility: hidden;
   opacity: 0;
   font-size: 16px;
@@ -26981,7 +26981,7 @@ html:not(.lt-ie10) .not-animated {
   .rd-navbar-static .rd-navbar-megamenu,
   .rd-navbar-fullwidth .rd-navbar-dropdown,
   .rd-navbar-fullwidth .rd-navbar-megamenu {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
