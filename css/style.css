@@ -10375,6 +10375,7 @@ address {
 .page .text-base {
   color: #2c2b2b;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .page a.text-base:hover,
