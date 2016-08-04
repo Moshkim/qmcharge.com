@@ -402,6 +402,8 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+
+/*Change the grey page-text to black,'#333'*/
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
