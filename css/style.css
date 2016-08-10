@@ -26960,7 +26960,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-nav > li > a,
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-nav > li > a {
   transition: 0s;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-brand,
