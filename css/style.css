@@ -25882,6 +25882,7 @@ html:not(.lt-ie10) .not-animated {
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
+  padding-top: 50px;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
@@ -25904,6 +25905,7 @@ html:not(.lt-ie10) .not-animated {
 
 .owl-carousel.owl-loading {
   opacity: 0;
+  marker-start: center;
   display: block;
 }
 
@@ -26958,7 +26960,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-nav > li > a,
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-nav > li > a {
   transition: 0s;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-brand,
