@@ -504,12 +504,23 @@ hr {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+
+/*h1 font color will be white and other class font color will be black*/
+h1,
+.h1{
   font-family: inherit;
   font-weight: 400;
   line-height: 1.1;
-  color: #2c2b2b;
+  color: white;
+
+}
+
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.1;
+  color: black;
 }
 
 h1 small,
@@ -10588,7 +10599,7 @@ fieldset[disabled] .btn-primary {
   border-radius: 0;
 }
 
-.btn.btn-icon {
+.btn.btn- {
   padding-left: 17px;
   padding-right: 17px;
 }
@@ -29147,7 +29158,7 @@ ul ul, ul ol, ol ul, ol ol {
 .swiper-button-prev svg,
 .swiper-button-next svg {
   width: 70px;
-  fill: #2c2b2b;
+  fill: #f8f8f8;
   transition: .4s;
   position: absolute;
   top: 50%;
