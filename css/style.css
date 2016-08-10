@@ -659,6 +659,7 @@ mark,
 
 .text-primary {
   color: #ca3f3f;
+  text-transform: : capitalize;
 }
 
 a.text-primary:hover,
@@ -26736,7 +26737,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-dropdown {
   display: block;
   position: absolute;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   left: 0;
   width: 220px;
@@ -26973,7 +26974,7 @@ html:not(.lt-ie10) .not-animated {
   position: absolute;
   -webkit-transform: translateY(30px);
   transform: translateY(30px);
-  padding: 30px 40px 30px 30px;
+  padding: 30px 30px 30px 30px;
   text-align: center;
   visibility: hidden;
   opacity: 0;
@@ -29555,7 +29556,7 @@ button.swiper-pagination-bullet {
 .swiper-slide-caption {
   position: relative;
   width: 100%;
-  max-height: 100%;
+  max-height: 70%;
   vertical-align: middle;
   white-space: normal;
   display: flex;
