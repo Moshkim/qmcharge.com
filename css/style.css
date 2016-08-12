@@ -29028,14 +29028,14 @@ ul ul, ul ol, ol ul, ol ol {
 
 @media (min-width: 992px) {
   .swiper-slider {
-    min-height: 850px;
+    min-height: 700px;
   }
 }
 
 /*Background top margin has been changed!!!!!!!!! MARK!!*/
 
 .swiper-container {
-  margin-top: 30px;
+  margin-top: 20px;
   margin: 0 auto;
   position: relative;
   /* Fix of Webkit flickering */
@@ -29105,7 +29105,7 @@ ul ul, ul ol, ol ul, ol ol {
   -ms-flex: 0 0 auto;
   flex-shrink: 0;
   width: 100%;
-  height: 70%;
+  height: 100%;
   position: relative;
 }
 
@@ -29134,7 +29134,7 @@ ul ul, ul ol, ol ul, ol ol {
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  top: 50%;
+  top: 55%;
   height: 90px;
   margin-top: -45px;
   z-index: 10;
