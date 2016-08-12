@@ -27208,8 +27208,8 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static:not(.rd-navbar--is-stuck) {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 43px;
+  padding-bottom: 43px;
 }
 
 .rd-navbar-static .rd-navbar-brand {
