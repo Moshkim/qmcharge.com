@@ -29023,6 +29023,7 @@ ul ul, ul ol, ol ul, ol ol {
  */
 .swiper-slider {
   min-height: 600px;
+  padding-top: 10%
 }
 
 @media (min-width: 992px) {
@@ -29031,7 +29032,10 @@ ul ul, ul ol, ol ul, ol ol {
   }
 }
 
+/*Background top margin has been changed!!!!!!!!! MARK!!*/
+
 .swiper-container {
+  margin-top: 30px;
   margin: 0 auto;
   position: relative;
   /* Fix of Webkit flickering */
