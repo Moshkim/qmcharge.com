@@ -27188,12 +27188,14 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static-linked .swiper-slide-caption {
-  padding-top: 100px;
+  padding-top: 0px;
 }
+
+/*This might need to be changed depending on the screen size*/
 
 @media (min-width: 1200px) {
   .rd-navbar-static-linked .swiper-slide-caption {
-    padding-top: 300px;
+    padding-top: 0px;
   }
 }
 
@@ -29573,7 +29575,7 @@ button.swiper-pagination-bullet {
 .swiper-slide-caption {
   position: relative;
   width: 100%;
-  max-height: 70%;
+  max-height: 100%;
   vertical-align: middle;
   white-space: normal;
   display: flex;
