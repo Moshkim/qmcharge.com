@@ -32720,7 +32720,8 @@ a.pswp__share--download:hover {
 /*Main logo*/
 
 div.fixed{
-  position: inherit;
+  position: fixed;
+  z-index: 2;
   padding-top: 20px;
   padding-left: 20px;
   top-left: 0;
