@@ -32709,7 +32709,7 @@ a.pswp__share--download:hover {
 /*Main logo*/
 
 div.fixed{
-  position: fixed;
+  position: inherit;
   padding-top: 20px;
   padding-left: 20px;
   top-left: 0;
