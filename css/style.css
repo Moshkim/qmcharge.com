@@ -10360,13 +10360,24 @@ address {
 }
 
 .page .text-primary {
-  color: #fffb00;
+  color: #a94442;
 }
 
 .page a.text-primary:hover,
 .page a.text-primary:focus {
   color: #a82e2e;
 }
+
+/*Home Main Title Color*/
+.page .text-main{
+  color: #fffb00;
+}
+
+.page a.text-main:hover,
+.page a.text-main:focus {
+  color: #FFA700;
+}
+/******************************************************************************/
 
 .page .text-dark {
   color: #1e1d1d;
