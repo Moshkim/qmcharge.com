@@ -11,6 +11,52 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:300,300italic,400">
     <link rel="stylesheet" href="css/style.css">
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+      var myLatlng = new google.maps.LatLng(33.6869803,-117.8442924);
+      var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png'
+      var mapOptions = {
+        zoom: 11,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    //Callout Content
+    var contentString = 'Irvine';
+    //Set window width + content
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString,
+      maxWidth: 500
+    });
+
+    //Add Marker
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      icon: imagePath,
+      title: 'image title'
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+
+    //Resize Function
+    google.maps.event.addDomListener(window, "resize", function() {
+      var center = map.getCenter();
+      google.maps.event.trigger(map, "resize");
+      map.setCenter(center);
+    });
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+  </script>
+
+
+
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -69,12 +115,20 @@
           </div>
         </section>
         <section>
+            <div class="container">
+              <div id="map_container"></div>
+              <div id="map"></div>
+              <p>
+              <li>Address: 184 Gasan digital 2-ro, Gasan-dong, Geumcheon-gu, Seoul, South Korea</li> 
+              <li>Phone: (02) 2113-0110</li>
+              </p>
+            </div>  
+
+<!--
           <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6332.327664511162!2d126.87752062511417!3d37.480460069256374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e02c5b2549f%3A0x19e485122345ab3f!2z67K97IKw65SU7KeA7YS467C466asMuywqA!5e0!3m2!1sen!2s!4v1470819467948" width="600" height="450" frameborder="1" style="border:1" allowfullscreen></iframe>
-            <p>
-            <li>Address: 184 Gasan digital 2-ro, Gasan-dong, Geumcheon-gu, Seoul, South Korea</li> 
-            <li>Phone: (02) 2113-0110</li></p>
           </div>
+-->
         </section>
 
         <!-- RD Google Map-->

@@ -32692,7 +32692,44 @@ a.pswp__share--download:hover {
 /*# sourceMappingURL=style.css.map */
 
 
+
+
+.container{
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+
 /*Video Container Re-sizerable Screeen, Reactive */
+/*
+.map-container{
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;   
+  height:0;
+  overflow:hidden;
+}
+.map-container div, .map-container object, .map-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:60%;
+  height:50%;
+}
+*/
 .video-container {
   position:relative;
   padding-bottom:56.25%;

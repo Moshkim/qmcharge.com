@@ -72,6 +72,10 @@ var userAgent = navigator.userAgent.toLowerCase(),
  */
 $document.ready(function () {
 
+
+/*Google Map*/
+
+  
   /**
    * getSwiperHeight
    * @description  calculate the height of swiper slider basing on data attr
