@@ -32749,7 +32749,7 @@ a.pswp__share--download:hover {
 
 
 /*About Us People Resume bullet points*/
-.list-style-type-disc{
+ul.list-disc{
   list-style: square;
   margin-left: 10px;
 }
