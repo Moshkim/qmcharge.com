@@ -19340,7 +19340,7 @@ html.tablet .thumbnail > a .img-caption {
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   opacity: 0;
   transform: scale(0);
   transition: 0.4s cubic-bezier(0.24, 0.2, 0.38, 1.58);
@@ -22346,7 +22346,8 @@ html .page .offset-bottom-0 {
 }
 
 .fl-great-icon-set-global39:before {
-  content: "\e02e";
+  images: url("images/icon_png/battery_B.png");
+  /*content: "\e02e";*/
 }
 
 .fl-great-icon-set-house139:before {
