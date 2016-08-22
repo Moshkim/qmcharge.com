@@ -25748,7 +25748,7 @@ html:not(.lt-ie10) .not-animated {
 * @subsection   Isotope
 */
 [data-isotope-layout] {
-  position: relative;
+  position: absolute;
   -webkit-transform: translateY(-30px);
   transform: translateY(-30px);
   display: block;
